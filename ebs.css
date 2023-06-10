@@ -8,3 +8,20 @@ main{
 .form1{
     margin-top: 100px;
 }
+.firstCard{
+    background: linear-gradient(195deg,#2274D4,black 80%);
+    border-radius: 1rem;
+    height: 25rem;
+    width: 33rem;
+
+    @media (max-width:1024px) {
+    background: linear-gradient(195deg,#2274D4,black 80%);
+    height: 10rem;
+    width: 15rem;
+        
+    }
+}
+
+
+
+
