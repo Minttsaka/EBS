@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/ebs.css">
+    <title>mywebsite</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ebs.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<body class="custom-body ">
+<body class="custom-body">
     <header class="fixed-top bg-body-dark">
         <nav class="navbar navbar-expand-lg bg-black bg-body-dark">
             <div class="container-fluid d-flex justify-content-between">
-              <a class="navbar-brand text-white">EBS</a>
+              <a class="navbar-brand text-white logo">EBS</a>
               <div>
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,85 +38,139 @@
                   </div>
               </div>
         
-              <button class="btn btn-primary" type="submit">log in</button>
+              <a href="homePage.html"><button class="btn btn-primary" type="submit">log in</button></a>
             </div>
             
           </nav>
     </header>
-    <main class="mx-5">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="form1">
-                    <h1>ebs</h1>
-                    <p class="mt-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quas totam beatae, velit ea maxime nam sint, omnis expedita explicabo cupiditate atque ullam. Non, suscipit ducimus. Cupiditate, illum ea.</p>
-                    <div class="col align-items-center">   
-                    </div>
-                        <form class="row align-items-center">
-                          <div class="col">
-                            <div class="input-group" data-bs-theme="dark">
-                                <input type="text" placeholder="enter your Email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                              </div>
-                          </div>
-                          <div class="col">
+    <main class="container-fluid">
+      <section id="sec-1">
+        <div class="row d-flex justify-content-center align-items-center"> 
+          <div class="col-md-5">
+           
+              <div class="form1 pb-5">
+                <div class="home-heading">
+                  <h1 class="display-1 fw-bold">EBS</h1>
+                  <h1 class="mt-4 text-white text-uppercase ">one of the best program offered <span class="home-span">at mubas</span></h1>
+                </div>
+
+                  <div class="col form2">
+                    
+                    <form class="row ">
+                      <div class="col ">
+                        <div class="input-group " data-bs-theme="dark">
+                            <input type="text" placeholder="enter your Email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                             <button type="button" class="btn btn-primary">log in</button>
                           </div>
-                         
-                        </form>
+                      </div>
+                      <div class="col">
+                        
+                      </div>
+                     
+                    </form>   
                   </div>
-                </div>
-       
-              <div class="col-md-4">
-                <img src="img1.png" alt="" class="img-fluid">
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col">
-              <div class="bg-dark-subtle text-white py-4 card text-center">
-                <div class="card-body fw-bold">
-                    Did you know
                 </div>
-
-                <div class="card-group">
-                    <div class="card bg-dark-subtle text-white border-0">
-                      <div class="card-body">
-                        <h5 class="card-title fw-bold">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-body-secondary"></small></p>
-                      </div>
-                    </div>
-                    <div class="card bg-dark-subtle text-white border-0">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-body-secondary"></small></p>
-                      </div>
-                    </div>
-                    <div class="card bg-dark-subtle text-white border-0">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-body-secondary"></small></p>
-                      </div>
-                    </div>
-                  </div>
               </div>
+     
+            <div class="col-md-4">
+              <img src="img/clipart2557510.png" alt="" class="img-fluid">
+          </div>
+      </div>
+
+      <div class="row ">
+          <div class="col">
+            <div class="bg-dark-subtle text-black py-4 card text-center">
+              <div class="card-body fw-bold" id="didYouKnow">
+                  Did you know
+
+              </div>
+
+              <div class="row d-flex justify-content-center" >
+
+                <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                  <div class="card card-product bg-dark-subtle border-0">
+                    <div class="card-body">
+                      <p class="card-text py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, exercitationem! Laborum dolorum provident qui numquam totam mollitia iste dicta hic maiores quia omnis ut cupiditate molestiae natus accusamus cum harum, explicabo aperiam, sint quos nesciunt, quas deserunt. Excepturi, et at!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                  <div class="card card-product bg-dark-subtle border-0">
+                    <div class="card-body">
+                      <p class="card-text py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, exercitationem! Laborum dolorum provident qui numquam totam mollitia iste dicta hic maiores quia omnis ut cupiditate molestiae natus accusamus cum harum, explicabo aperiam, sint quos nesciunt, quas deserunt. Excepturi, et at!</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+       
             </div>
           </div>
+        </div>
+      </section>
+ 
+      <section id="sec-5" class="py-5">
+        <div class="row my-5">
+          <div class="col-md-6">
+              <img src="img/course-outline-generator-no-lazy.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center text-white align-middle">
+            <h1>course outlines</h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quas totam beatae, velit ea maxime nam sint, omnis expedita explicabo cupiditate atque ullam. Non, suscipit ducimus. Cupiditate, illum ea.</p>
+          </div>
+      </section>
 
-     
-          <div class="row my-5">
-            <div class="col-md-4">
-                <img src="/computer-icons-notary-public-business-syllabus-others-80649bcb2e84c0875522b34e494f4c7e.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-5 text-center text-white align-middle">
-              <h1>course outlines</h1>
-              <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quas totam beatae, velit ea maxime nam sint, omnis expedita explicabo cupiditate atque ullam. Non, suscipit ducimus. Cupiditate, illum ea.</p>
-            </div>
+      <section id="sec-5" class="py-5 bg-info-subtle">
+        <div class="row my-5">
+          <div class="col-md-6">
+              <img src="img/physical-exercise-clip-art-motivation-8b1a1b40658f4fca9c223f810b906583.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center text-white align-middle">
+            <h1>course outlines</h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quas totam beatae, velit ea maxime nam sint, omnis expedita explicabo cupiditate atque ullam. Non, suscipit ducimus. Cupiditate, illum ea.</p>
+          </div>
+      </section>
 
+      <section id="sec-5" class="py-5">
+        <div class="row my-5">
+          <div class="col-md-6">
+              <img src="img/backpacker-hostel-hotel-guest-house-hotel-8a1d4c43a894cf7966bff1a601c1cf61.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center text-white align-middle">
+            <h1>course outlines</h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quas totam beatae, velit ea maxime nam sint, omnis expedita explicabo cupiditate atque ullam. Non, suscipit ducimus. Cupiditate, illum ea.</p>
+          </div>
+      </section>
+
+      <section id="sec-5" class="py-5 bg-success-subtle">
+        <div class="row my-5">
+          <div class="col-md-6">
+              <img src="img/diversity-inclusion-education-business-organization-volunteer-033794e196d8db79372311b8c3fd0d77.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center text-white align-middle">
+            <h1>course outlines</h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cum quas totam beatae, velit ea maxime nam sint, omnis expedita explicabo cupiditate atque ullam. Non, suscipit ducimus. Cupiditate, illum ea.</p>
+          </div>
+      </section>
 
     </main>
 
+    <div class="container my-4">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h3 class="mb-4">browse the feature in details</h3>
+          <p class="lh-lg fw-light pt-2 w-25 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, accusamus?</p>
+        </div>
+      </div>
+    </div>
+
+  
+   
+
+           
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

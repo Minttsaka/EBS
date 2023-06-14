@@ -1,9 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=Roboto+Mono:wght@300;600&display=swap');
+
 .custom-body{
     background-color: black;
 }
 main{
    margin-top: 150px;
     
+}
+.display-1{
+    font-family: 'Nunito Sans', sans-serif;
+    color:linear-gradient(195deg,#0871e9,rgb(40, 103, 158) );
 }
 .form1{
     margin-top: 100px;
@@ -12,16 +21,136 @@ main{
     background: linear-gradient(195deg,#2274D4,black 80%);
     border-radius: 1rem;
     height: 25rem;
-    width: 33rem;
-
-    @media (max-width:1024px) {
-    background: linear-gradient(195deg,#2274D4,black 80%);
-    height: 10rem;
-    width: 15rem;
-        
+    width: 33rem;      
     }
+
+
+#didYouKnow{
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: rgb(255, 129, 57);
+
 }
 
 
 
+.home-heading{
+    /*font-family: 'Nunito Sans', sans-serif;*/
+   font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    font-weight:700px;
+    line-height: 74px;
 
+   
+}
+
+
+@media (max-width:760px) {
+    .home-heading{
+        /*font-family: 'Nunito Sans', sans-serif;*/
+       font-family: 'Roboto Mono', monospace;
+        font-size: 40px;
+        font-weight:700px;
+        line-height: 3rem;
+        text-align:center;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .form2{
+      
+       align-items: center;
+    }
+}
+
+.home-span{
+    color:rgb(255, 129, 57)
+}
+
+.card-product{
+    padding: 10px;
+    background-color:#242324 !important ;
+}
+
+.card-text{
+    color:black;
+    font-size: 1rem;
+    border-top: 1px solid rgb(255, 129, 57);
+    border-bottom: 1px solid rgb(255, 129, 57);
+}
+
+#inputYear,#inputSemester{
+    width: 50px !important;
+}
+
+#inputYear::-webkit-inner-spin-button,#inputSemester::-webkit-inner-spin-button{
+    display: none;
+}
+
+select {
+    /* Styles for the select element itself */
+    height: 35px;
+    font-size: 16px;
+    width: 50px;
+    border: none;
+    
+  }
+
+  .slider {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .slider ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    animation: slide 10s infinite;
+  }
+  
+  .slider li {
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateY(-40px);
+    }
+    40% {
+      transform: translateY(-80px);
+    }
+    60% {
+      transform: translateY(-120px);
+    }
+    80% {
+      transform: translateY(-160px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  }
+
+  /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #motivation{
+    display: flex;
+    justify-content: center;
+    background-image: url("img/motivation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100lvh;
+
+  }
