@@ -89,68 +89,69 @@ main{
     display: none;
 }
 
-select {
-    /* Styles for the select element itself */
-    height: 35px;
-    font-size: 16px;
-    width: 50px;
-    border: none;
-    
+.school{
+   
+    background-image: url("img/Img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
   }
 
-  .slider {
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-  }
-  
-  .slider ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    animation: slide 10s infinite;
-  }
-  
-  .slider li {
-    height: 40px;
-    line-height: 40px;
-  }
-  
-  @keyframes slide {
-    0% {
-      transform: translateY(0);
-    }
-    20% {
-      transform: translateY(-40px);
-    }
-    40% {
-      transform: translateY(-80px);
-    }
-    60% {
-      transform: translateY(-120px);
-    }
-    80% {
-      transform: translateY(-160px);
-    }
-    100% {
-      transform: translateY(-200px);
-    }
-  }
+.spiritual{
+    background-image: url("img/download.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 
-  /* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  #motivation{
-    display: flex;
-    justify-content: center;
+
+}
+.business{
     background-image: url("img/motivation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100lvh;
+    height: 100vh;
+}
 
-  }
+.wellbeing{
+    background-image: url("img/motivation-768x426.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#nav-tab{
+  display: flex;
+  justify-content: center;
+}
+
+.slider-navbar {
+  width: 100%;
+  height: 50px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.slider {
+  display: inline-flex;
+  height: 100%;
+  padding: 5px;
+  cursor: grab;
+  
+}
+
+.slider:active {
+  cursor: grabbing;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+  

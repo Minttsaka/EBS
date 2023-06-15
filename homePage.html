@@ -9,18 +9,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>document</title>
 </head>
-<body class="container-fluid text-white bg-black">
-  <nav>
-    <div class="nav nav-tabs d-flex justify-content-center bg-info-subtle" id="nav-tab" role="tablist">
-      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">DOCUMENTS</button>
-      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">ASSOCIATIONS</button>
-      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">MOTIVATION</button>
+<body class="container-fluid custom-body">
+  <nav class="">
+    <div class="nav nav-tabs fixed-top bg-info-subtle"  role="tablist">
+      <nav class="slider-navbar">
+        <div class="slider" id="nav-tab">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">DOCUMENTS</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">ASSOCIATIONS</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">MOTIVATION</button>
+        </div>
+      </nav>
+
     </div>
   </nav>
-  <div class="tab-content justify-content-center" id="nav-tabContent">
+  <div class="tab-content my-5" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
       <div class="d-flex justify-content-center">
-        <form class="row ">
+        <form class="row">
             <div class="col">
                 <label for="inputProgram" class="form-label">program</label>
                 <div>
@@ -52,11 +57,11 @@
     </div>
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
       <div class="row">
-        <div class="d-flex align-items-center justify-content-center nav nav-pills me-3" id="v-pills-tab" role="tablist">
+        <div class="d-flex align-items-center justify-content-center nav nav-pills" id="v-pills-tab" role="tablist">
           <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CLASS GROUPS</button>
           <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">ABES</button>
         </div>
-        <div class="d-flex justify-content-center">
+        <div>
           <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">hello i hope you are doing just fine and am good too</div>
             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur enim et nostrum velit libero id eum dicta saepe inventore repellat voluptas quos mollitia maxime hic autem tempore temporibus veniam harum, culpa laudantium aut nesciunt asperiores eveniet? Doloremque debitis velit repellat voluptatem, dignissimos culpa obcaecati. Quis fuga quo voluptatum deserunt ab?</div>
@@ -68,46 +73,43 @@
       </div>
     </div>
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
-      <div class="container">
         <div class="row">
           <div class="col d-flex justify-content-center">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">SCHOOL</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">SPIRITUAL</button>
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="f">SPIRITUAL</button>
               </li>
               <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">BUSINESS</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>WELLBEING</button>
+                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">WELLBEING</button>
               </li>
             </ul>
           </div>
         </div>
-        <div class="col">
+    
           <div class="tab-content" id="pills-tabContent">
-            <div class="d-flex justify-content-center" id="motivation">
-              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">hello hello can you here me as i screen your name</div>
-              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
-              <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+              <div class="tab-pane fade show active school" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">hello hello can you here me as i screen your name</div>
+              <div class="tab-pane fade spiritual" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">Lorem ipsum dolor sit amet.</div>
+              <div class="tab-pane fade business" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque commodi exercitationem laboriosam eligendi molestias iste, unde vitae beatae fuga nam.</div>
+              <div class="tab-pane fade wellbeing" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">miracle is a best programmer and he is doing alot in programming industry</div>
             </div>
-          
-  
-          </div>
-        </div>
       </div>
   </div>
+
+ 
+  
           
         
    
     
 
   
-
+      <script src="ebs.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
