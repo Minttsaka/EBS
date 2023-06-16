@@ -1,2 +1,5 @@
 # EBS
-website for ebs program
+program name
+year
+semester
+programes

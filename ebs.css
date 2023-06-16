@@ -1,17 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=Roboto+Mono:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=Poppins:wght@300;400;500;700&family=Roboto+Mono:wght@300;600&display=swap');
 
-.custom-body{
-    background-color: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=Roboto+Mono:wght@300;600&display=swap');
+
 main{
    margin-top: 150px;
     
 }
+
 .display-1{
-    font-family: 'Nunito Sans', sans-serif;
     color:linear-gradient(195deg,#0871e9,rgb(40, 103, 158) );
 }
 .form1{
@@ -36,7 +35,7 @@ main{
 
 .home-heading{
     /*font-family: 'Nunito Sans', sans-serif;*/
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Roboto Mono', monospace !important;
     font-size: 50px;
     font-weight:700px;
     line-height: 74px;
@@ -48,16 +47,13 @@ main{
 @media (max-width:760px) {
     .home-heading{
         /*font-family: 'Nunito Sans', sans-serif;*/
-       font-family: 'Roboto Mono', monospace;
+       font-family: 'Roboto Mono', monospace !important;
         font-size: 40px;
         font-weight:700px;
         line-height: 3rem;
         text-align:center;
     }
 
-    .logo{
-        display: none;
-    }
 
     .form2{
       
@@ -81,7 +77,7 @@ main{
     border-bottom: 1px solid rgb(255, 129, 57);
 }
 
-#inputYear,#inputSemester{
+#inputYear,#inputSemester,#inputProgram{
     width: 50px !important;
 }
 
@@ -89,9 +85,16 @@ main{
     display: none;
 }
 
+@media(min-width:1280px){
+    .slider{
+      
+    }
+}
+
+
 .school{
    
-    background-image: url("img/Img.jpg");
+    background-image: url("img/Img.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -137,11 +140,10 @@ main{
 }
 
 .slider {
-  display: inline-flex;
-  height: 100%;
-  padding: 5px;
-  cursor: grab;
+  display:block;
+    width:auto;
   
+  cursor: grab;
 }
 
 .slider:active {
@@ -154,4 +156,39 @@ main{
   display: none;
 }
 
-  
+.link-about{
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(255,129,57, 0.5);
+    color: rgb(255, 129, 57);
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 22px;
+    position: relative;
+    z-index: 22;
+}
+
+.link-about:hover{
+    color: white;
+}
+.span-about{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 129, 57);
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s ease-in;
+}
+
+.link-about:hover .span-about{
+    width: 100%;
+}
+
+Search-button{
+    display: grid;
+    place-content: center;
+}
+

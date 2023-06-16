@@ -9,28 +9,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>document</title>
 </head>
-<body class="container-fluid custom-body">
-  <nav class="">
+<body class="container-fluid bg-black">
+  <nav class="px-sm-5">
     <div class="nav nav-tabs fixed-top bg-info-subtle"  role="tablist">
       <nav class="slider-navbar">
         <div class="slider" id="nav-tab">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">DOCUMENTS</button>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">ASSOCIATIONS</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">MOTIVATION</button>
+          <button class="nav-link active" id="nav-documents-tab" data-bs-toggle="tab" data-bs-target="#nav-documents" type="button" role="tab" aria-controls="nav-documents" aria-selected="true">DOCUMENTS</button>
+          <button class="nav-link" id="nav-associations-tab" data-bs-toggle="tab" data-bs-target="#nav-associations" type="button" role="tab" aria-controls="nav-associations" aria-selected="false">ASSOCIATIONS</button>
+          <button class="nav-link" id="nav-motivation-tab" data-bs-toggle="tab" data-bs-target="#nav-motivation" type="button" role="tab" aria-controls="nav-motivation" aria-selected="false">MOTIVATION</button>
         </div>
       </nav>
 
     </div>
   </nav>
   <div class="tab-content my-5" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+    <div class="tab-pane fade show active" id="nav-documents" role="tabpanel" aria-labelledby="nav-documents-tab" tabindex="0">
       <div class="d-flex justify-content-center">
-        <form class="row">
+        <form class="row my-3 text-primary">
             <div class="col">
                 <label for="inputProgram" class="form-label">program</label>
                 <div>
-                    <select selected value="" id="inputProgram">    
-                    <option id="inputProgram" value="EBS">EBS</option>
+                    <select id="inputProgram" class="py-2 rounded" selected value="" id="inputProgram">    
+                    <option value="EBS">EBS</option>
                 </select>
             </div>   
           </div>
@@ -42,73 +42,68 @@
                 <label for="inputSemester" class="form-label">Semester</label>
                 <input type="number" class="form-control" id="inputSemester">
             </div>
-            <div class="container px-5 my-3 text-center">
-              <div class="row me-5">
-                <div class="col bg-primary">
-                <div class="  py-3">C-outline</div>
-                </div>
-                <div class="col bg-secondary">
-                  <div class="  py-3">C-page</div>
-                </div>
-              </div>
+          </form>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="#" id="Search-button" class="link-about"><span class="span-about"></span>Search..</a>
+        </div> 
+
+        <div class="container my-3">
+          <div class="row justify-content-md-center">
+            <div class="col col-lg-2">
             </div>
-        </form>
-      </div> 
+            <div class="col-lg-8 col-sm-12" id="content">
+            </div>
+            <div class="col col-lg-2">
+            </div>
+          </div>
+      </div>
     </div>
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+    <div class="tab-pane fade" id="nav-associations" role="tabpanel" aria-labelledby="nav-associations-tab" tabindex="0">
       <div class="row">
         <div class="d-flex align-items-center justify-content-center nav nav-pills" id="v-pills-tab" role="tablist">
-          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CLASS GROUPS</button>
-          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">ABES</button>
+          <button class="nav-link active" id="v-pills-groups-tab" data-bs-toggle="pill" data-bs-target="#v-pills-groups" type="button" role="tab" aria-controls="v-pills-groups" aria-selected="true">CLASS GROUPS</button>
+          <button class="nav-link" id="v-pills-abes-tab" data-bs-toggle="pill" data-bs-target="#v-pills-abes" type="button" role="tab" aria-controls="v-pills-abes" aria-selected="false">ABES</button>
         </div>
         <div>
           <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">hello i hope you are doing just fine and am good too</div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur enim et nostrum velit libero id eum dicta saepe inventore repellat voluptas quos mollitia maxime hic autem tempore temporibus veniam harum, culpa laudantium aut nesciunt asperiores eveniet? Doloremque debitis velit repellat voluptatem, dignissimos culpa obcaecati. Quis fuga quo voluptatum deserunt ab?</div>
+            <div class="tab-pane fade show active" id="v-pills-groups" role="tabpanel" aria-labelledby="v-pills-groups-tab" tabindex="0">hello i hope you are doing just fine and am good too</div>
+            <div class="tab-pane fade" id="v-pills-abes" role="tabpanel" aria-labelledby="v-pills-abes-tab" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur enim et nostrum velit libero id eum dicta saepe inventore repellat voluptas quos mollitia maxime hic autem tempore temporibus veniam harum, culpa laudantium aut nesciunt asperiores eveniet? Doloremque debitis velit repellat voluptatem, dignissimos culpa obcaecati. Quis fuga quo voluptatum deserunt ab?</div>
             <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem in molestias placeat doloremque laborum veritatis laboriosam repellendus. Eos, asperiores?</div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
           </div>
         </div>
       </div>
     </div>
-    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+    <div class="tab-pane fade" id="nav-motivation" role="tabpanel" aria-labelledby="nav-motivation-tab" tabindex="0">
         <div class="row">
           <div class="col d-flex justify-content-center">
             <ul class="nav nav-pills" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">SCHOOL</button>
+                <button class="nav-link active" id="pills-academic-tab" data-bs-toggle="pill" data-bs-target="#pills-academic" type="button" role="tab" aria-controls="pills-academic" aria-selected="true">SCHOOL</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="f">SPIRITUAL</button>
+                <button class="nav-link" id="pills-spiritual-tab" data-bs-toggle="pill" data-bs-target="#pills-spiritual" type="button" role="tab" aria-controls="pills-spiritual" aria-selected="f">SPIRITUAL</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">BUSINESS</button>
+                <button class="nav-link" id="pills-business-tab" data-bs-toggle="pill" data-bs-target="#pills-business" type="button" role="tab" aria-controls="pills-business" aria-selected="false">BUSINESS</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">WELLBEING</button>
+                <button class="nav-link" id="pills-wellbeing-tab" data-bs-toggle="pill" data-bs-target="#pills-wellbeing" type="button" role="tab" aria-controls="pills-wellbeing" aria-selected="false">WELLBEING</button>
               </li>
             </ul>
           </div>
         </div>
     
           <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active school" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">hello hello can you here me as i screen your name</div>
-              <div class="tab-pane fade spiritual" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">Lorem ipsum dolor sit amet.</div>
-              <div class="tab-pane fade business" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque commodi exercitationem laboriosam eligendi molestias iste, unde vitae beatae fuga nam.</div>
-              <div class="tab-pane fade wellbeing" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">miracle is a best programmer and he is doing alot in programming industry</div>
+              <div class="tab-pane fade show active school" id="pills-academic" role="tabpanel" aria-labelledby="pills-academic-tab" tabindex="0">hello hello can you here me as i screen your name</div>
+              <div class="tab-pane fade spiritual" id="pills-spiritual" role="tabpanel" aria-labelledby="pills-spiritual-tab" tabindex="0">Lorem ipsum dolor sit amet.</div>
+              <div class="tab-pane fade business" id="pills-business" role="tabpanel" aria-labelledby="pills-business-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque commodi exercitationem laboriosam eligendi molestias iste, unde vitae beatae fuga nam.</div>
+              <div class="tab-pane fade wellbeing" id="pills-wellbeing" role="tabpanel" aria-labelledby="pills-wellbeing-tab" tabindex="0">miracle is a best programmer and he is doing alot in programming industry</div>
             </div>
       </div>
   </div>
 
- 
-  
-          
-        
-   
-    
-
-  
       <script src="ebs.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

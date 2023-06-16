@@ -1,0 +1,363 @@
+[
+    {},
+    {
+    "EBS":[
+            {},
+            {
+            "semester":[
+                        {},
+                        {
+                            "module1":{
+                                "name":"Financial Accounting 1",
+                                "description":"Overall, financial accounting plays a vital role in providing essential information to external stakeholders, facilitating decision-making, and ensuring transparency and accountability in financial reporting.",
+                                "outline":1,
+                                "coverPage":2
+
+                            },
+                            "module2":{
+                                "name":"Business Mathematics 1",
+                                "description":"This is a branch of mathematics that focuses on the application of mathematical principles to solve business-related problems.Business mathematics plays a crucial role in various aspects of business decision-making, including financial analysis, budgeting, investment evaluation, and operational planning.",
+                                "outline":1,
+                                "coverPage":2
+
+                            },
+                            "module3":{
+                                "name":"Communication Studies 1",
+                                "description":"Communication studies provides a multidisciplinary understanding of communication processes and their significance in personal, professional, and societal contexts. It is a dynamic and evolving field that contributes to our knowledge of human interaction and helps improve communication practices in a wide range of domains.",
+                                "outline":1,
+                                "coverPage":2
+                            },
+                            "module4":{
+                                "name":"Information Systems",
+                                "description":"It involves the use of technology, people, and processes to manage and support organizational operations, decision-making, and communication.Its is used to support and automate processes, enhance decision-making, improve efficiency, and enable effective communication and collaboration.",
+                                "outline":1,
+                                "coverPage":2
+                            },
+                            "module5":{
+                                "name":"Economics 1",
+                                "description":"Microeconomics provides a framework for understanding how individuals and firms make decisions and how these decisions shape the functioning of markets. It is crucial for analyzing specific markets, policy-making, and understanding the broader workings of the economy.",
+                                "outline":1,
+                                "coverPage":2
+                            },
+                            "module6":{
+                                "name":"Organization Behaviour",
+                                "description":"Organizational behavior module provides a framework for understanding and analyzing the complexities of human behavior within organizations. It helps organizations and managers create a positive work environment, enhance employee satisfaction and performance, and improve overall organizational effectiveness.",
+                                "outline":1,
+                                "coverPage":2
+                            }
+                            },
+                            {
+                                "module1":{
+                                    "name":"Financial Accounting 2",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                    
+                                },
+                                "module2":{
+                                    "name":"Business Mathematics 2",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                    
+                                },
+                                "module3":{
+                                    "name":"Communication Studies 2",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module4":{
+                                    "name":"Information Technology Packages",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module5":{
+                                    "name":"Economics 2",
+                                    "description":"cost accounting is essential for organizations to understand and control their costs effectively. It enables them to optimize resources, improve decision-making, enhance competitiveness, and ultimately achieve financial success.",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module6":{
+                                    "name":"Psychology of Education",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                                }
+                                }
+                        ]   
+            }
+            ]
+    },
+    {
+        "EBS":[
+                {},
+                {
+                "semester":[
+                            {},
+                            {
+                                "module1":{
+                                    "name":"Cost Accounting",
+                                    "description":"Overall, financial accounting plays a vital role in providing essential information to external stakeholders, facilitating decision-making, and ensuring transparency and accountability in financial reporting.",
+                                    "outline":1,
+                                    "coverPage":2
+    
+                                },
+                                "module2":{
+                                    "name":"Business Statistics 1",
+                                    "description":"Overall, the sociology of education provides valuable insights into the complex interplay between education and society, shedding light on the ways in which education both reflects and shapes social structures and inequalities. It offers a critical lens to understand the impact of education on individuals, communities, and broader societal dynamics.",
+                                    "outline":1,
+                                    "coverPage":2
+    
+                                },
+                                "module3":{
+                                    "name":"Literature & Literary appreciation 1",
+                                    "description":"Programming is the process of writing instructions for a computer to perform specific tasks. It involves creating a set of step-by-step instructions, known as code or a program, that can be executed by a computer or other computing devices. Programming allows you to automate repetitive tasks, solve complex problems, and build various software applications.",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module4":{
+                                    "name":"Programming 1",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module5":{
+                                    "name":"General Principles of Law",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module6":{
+                                    "name":"Philosophy of Education",
+                                    "description":"this team is very stupid wanvera",
+                                    "outline":1,
+                                    "coverPage":2
+                                }
+                                },
+                                {
+                                    "module1":{
+                                        "name":"Management Accocunting",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                        
+                                    },
+                                    "module2":{
+                                        "name":"Business Statistics 2",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                        
+                                    },
+                                    "module3":{
+                                        "name":"Literature & Literary appreciation 2",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module4":{
+                                        "name":"Programming 2",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module5":{
+                                        "name":"Business Consumer Law",
+                                        "description":"cost accounting is essential for organizations to understand and control their costs effectively. It enables them to optimize resources, improve decision-making, enhance competitiveness, and ultimately achieve financial success.",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module6":{
+                                        "name":"Sociology of Education",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    }
+                                    }
+                            ]   
+                }
+                ]
+    },
+    {
+            "EBS":[
+                    {},
+                    {
+                    "semester":[
+                                {},
+                                {
+                                    "module1":{
+                                        "name":"Financial Management",
+                                        "description":"Overall, financial accounting plays a vital role in providing essential information to external stakeholders, facilitating decision-making, and ensuring transparency and accountability in financial reporting.",
+                                        "outline":1,
+                                        "coverPage":2
+        
+                                    },
+                                    "module2":{
+                                        "name":"Testing Measurement & Evaluation",
+                                        "description":"Overall, the sociology of education provides valuable insights into the complex interplay between education and society, shedding light on the ways in which education both reflects and shapes social structures and inequalities. It offers a critical lens to understand the impact of education on individuals, communities, and broader societal dynamics.",
+                                        "outline":1,
+                                        "coverPage":2
+        
+                                    },
+                                    "module3":{
+                                        "name":"Instructional Media & Technology",
+                                        "description":"Programming is the process of writing instructions for a computer to perform specific tasks. It involves creating a set of step-by-step instructions, known as code or a program, that can be executed by a computer or other computing devices. Programming allows you to automate repetitive tasks, solve complex problems, and build various software applications.",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module4":{
+                                        "name":"Network Fundamentals",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module5":{
+                                        "name":"Fundamentals of Marketing",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module6":{
+                                        "name":"Teaching Methods",
+                                        "description":"this team is very stupid wanvera",
+                                        "outline":1,
+                                        "coverPage":2
+                                    }
+                                },
+                                {
+                                        "module1":{
+                                            "name":"Management Accocunting",
+                                            "description":"this will train students to be best accountants",
+                                            "outline":1,
+                                            "coverPage":2
+                            
+                                        },
+                                        "module2":{
+                                            "name":"Business Statistics 2",
+                                            "description":"this will train students to be best accountants",
+                                            "outline":1,
+                                            "coverPage":2
+                            
+                                        },
+                                        "module3":{
+                                            "name":"Literature & Literary appreciation 2",
+                                            "description":"this will train students to be best accountants",
+                                            "outline":1,
+                                            "coverPage":2
+                                        },
+                                        "module4":{
+                                            "name":"Programming 2",
+                                            "description":"this will train students to be best accountants",
+                                            "outline":1,
+                                            "coverPage":2
+                                        },
+                                        "module5":{
+                                            "name":"Business Consumer Law",
+                                            "description":"cost accounting is essential for organizations to understand and control their costs effectively. It enables them to optimize resources, improve decision-making, enhance competitiveness, and ultimately achieve financial success.",
+                                            "outline":1,
+                                            "coverPage":2
+                                        },
+                                        "module6":{
+                                            "name":"Sociology of Education",
+                                            "description":"this will train students to be best accountants",
+                                            "outline":1,
+                                            "coverPage":2
+                                        }
+                                }
+                                ]   
+                            }
+                    ]
+    },
+    {
+        "EBS":[
+                {},
+                {
+                "semester":[
+                            {},
+                            {
+                                "module1":{
+                                    "name":"Financial Administration",
+                                    "description":"Overall, financial accounting plays a vital role in providing essential information to external stakeholders, facilitating decision-making, and ensuring transparency and accountability in financial reporting.",
+                                    "outline":1,
+                                    "coverPage":2
+    
+                                },
+                                "module2":{
+                                    "name":"Marketing management",
+                                    "description":"Overall, the sociology of education provides valuable insights into the complex interplay between education and society, shedding light on the ways in which education both reflects and shapes social structures and inequalities. It offers a critical lens to understand the impact of education on individuals, communities, and broader societal dynamics.",
+                                    "outline":1,
+                                    "coverPage":2
+    
+                                },
+                                "module3":{
+                                    "name":"International Business Law",
+                                    "description":"Programming is the process of writing instructions for a computer to perform specific tasks. It involves creating a set of step-by-step instructions, known as code or a program, that can be executed by a computer or other computing devices. Programming allows you to automate repetitive tasks, solve complex problems, and build various software applications.",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module4":{
+                                    "name":"System Analysis & Design",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module5":{
+                                    "name":"Curriculum Studies",
+                                    "description":"this will train students to be best accountants",
+                                    "outline":1,
+                                    "coverPage":2
+                                },
+                                "module6":{
+                                    "name":"Research Methods 1",
+                                    "description":"this team is very stupid wanvera",
+                                    "outline":1,
+                                    "coverPage":2
+                                }
+                            },
+                            {
+                                    "module1":{
+                                        "name":"Small Business Enterprise",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                        
+                                    },
+                                    "module2":{
+                                        "name":"Corporate Policy & Strategic Planning",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                        
+                                    },
+                                    "module3":{
+                                        "name":"Education Administration & Leadership",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module4":{
+                                        "name":"Database Management System",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module5":{
+                                        "name":"Adult & Special Needs Education",
+                                        "description":"cost accounting is essential for organizations to understand and control their costs effectively. It enables them to optimize resources, improve decision-making, enhance competitiveness, and ultimately achieve financial success.",
+                                        "outline":1,
+                                        "coverPage":2
+                                    },
+                                    "module6":{
+                                        "name":"Research Methods 2",
+                                        "description":"this will train students to be best accountants",
+                                        "outline":1,
+                                        "coverPage":2
+                                    }
+                            }
+                            ]   
+                }
+                ]
+    }
+]
